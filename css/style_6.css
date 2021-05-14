@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+    line-height: 1.5;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (maxwidth){
+    html {
+        font-size: 2px;
+    }
+}
+body {
+    background-color: #fff;
+    font-size: 1.2rem;
+}
+.resume {
+    margin-left: 8.7rem;
+}
+.header {
+    line-height: 5rem;
+    height: 5rem;
+    width: 70rem;
+    background-color: #858585;
+}
+.header h1 {
+    margin-left: 1rem;
+    color: #fff;
+    font-weight: 700;
+}
+.itme1 {
+    display: inline-block;
+    margin-top: 0.2rem;
+    width: 70rem;
+    background-color: #fff;
+    margin-top: 0.1rem solid #ccc;
+    border-bottom: .2rem solid #858585;
+    border-left: 0.2rem solid #858585;
+    border-right: 0.2rem solid #858585;
+}
+.itme1 h3 {
+    float: left;
+    background-color: #ccc;
+    height: 12rem;
+    width: 9rem;
+    line-height: 12rem;
+}
+.itme1 p{
+    display: inline-block;
+}
